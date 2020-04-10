@@ -15,6 +15,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // require("./app/routes/customer.routes.js")(app);
 require("./app/routes/authors.routes")(app)
 
+app.get('/home', (req, res)=> {
+  res.send("Hello from home page")
+})
+
 // set port, listen for requests
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
