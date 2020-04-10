@@ -1,23 +1,26 @@
 {
-  "name": "nodejs-express-mysql",
+  "name": "libriry-app",
   "version": "1.0.0",
-  "description": "Node.js Restful CRUD API with Node.js, Express and MySQL",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js"
-  },
-  "keywords": [
-    "nodejs",
-    "express"
-    
-  ],
-  "author": "sfksdfs",
-  "license": "ISC",
+  "description": "For more detail, please visit: > [Build Node.js Rest APIs with Express & MySQL](https://bezkoder.com/node-js-rest-api-express-mysql/)",
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mysql": "^2.17.1",
-    "pg": "^8.0.0"
-  }
+    "pg": "^8.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DS-nick/libriry-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DS-nick/libriry-api/issues"
+  },
+  "homepage": "https://github.com/DS-nick/libriry-api#readme"
 }
