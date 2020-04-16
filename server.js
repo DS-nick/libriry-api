@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // require("./app/routes/customer.routes.js")(app);
 require("./app/routes/authors.routes")(app)
+require("./app/routes/auth.routes")(app)
 
 app.get('/home', (req, res)=> {
   res.send("Hello from home page")
